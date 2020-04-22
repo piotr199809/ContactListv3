@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Contact List</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add">ADD</string>
+    <string name="phone_number">Phone number</string>
+    <string name="birthday">Birthday</string>
+    <string name="surname">Surname</string>
+    <string name="name">Name</string>
+    <string name="dialog_cancel">CANCEL</string>
+    <string name="dialog_yes">YES</string>
+    <string name="call_question">Call?</string>
+    <string name="call_dialog_tag" />
+    <string name="dialog_confirm">Confirm</string>
+    <string name="delete_question">Delete this contact?</string>
+    <string name="delete_dialog_tag" />
+    <string name="default_surname" />
+    <string name="default_birthday" />
+    <string name="default_name" />
+</resources>

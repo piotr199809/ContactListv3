@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/text_margin"
+    tools:context=".ContactInfoFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_contactInfo"
+        android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        <!-- android:text="Contact Name" -->
+
+    <ImageView
+        android:id="@+id/photo_contactInfo"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <!-- android:src="@drawable/avatar_1" -->
+
+    <TextView
+        android:id="@+id/phoneNumber_contactInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <!-- android:text="Phone number:"-->
+
+    <TextView
+        android:id="@+id/birthday_contactInfo"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <!-- android:text="Birthday" -->
+</LinearLayout>
