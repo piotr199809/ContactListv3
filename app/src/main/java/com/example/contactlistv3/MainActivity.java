@@ -144,6 +144,10 @@ public class MainActivity extends AppCompatActivity implements
                 if (contactInfoFragment != null) {
                     contactInfoFragment.displayBlankContact();
                 }
+            }else{
+                if(currentItemPositionClick > currentItemPosition){
+                    currentItemPositionClick = currentItemPositionClick - 1;
+                }
             }
         }
 
